@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schema/v1/server.json",
+  "name": "reddit-mcp",
+  "description": "MCP server for Reddit — submit posts, reply to comments, search subreddits, and read posts via the Reddit API.",
+  "license": "MIT",
+  "homepage": "https://github.com/ZLeventer/reddit-mcp",
+  "runtime": "node"
+}
