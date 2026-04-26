@@ -1,4 +1,4 @@
-# reddit-mcp
+# reddit-post-mcp
 
 MCP server for Reddit — 11 tools for submitting posts, replying to comments, searching subreddits, and reading posts via the Reddit API.
 
@@ -44,7 +44,7 @@ MCP server for Reddit — 11 tools for submitting posts, replying to comments, s
   "mcpServers": {
     "reddit": {
       "command": "npx",
-      "args": ["-y", "reddit-mcp"],
+      "args": ["-y", "reddit-post-mcp"],
       "env": {
         "REDDIT_CLIENT_ID": "your_client_id",
         "REDDIT_CLIENT_SECRET": "your_client_secret",
@@ -64,7 +64,7 @@ claude mcp add reddit \
   -e REDDIT_CLIENT_SECRET=your_client_secret \
   -e REDDIT_USERNAME=your_reddit_username \
   -e REDDIT_PASSWORD=your_reddit_password \
-  -- npx -y reddit-mcp
+  -- npx -y reddit-post-mcp
 ```
 
 ## Environment variables
@@ -75,7 +75,7 @@ claude mcp add reddit \
 | `REDDIT_CLIENT_SECRET` | Yes | App client secret |
 | `REDDIT_USERNAME` | Yes | Your Reddit username |
 | `REDDIT_PASSWORD` | Yes | Your Reddit password |
-| `REDDIT_USER_AGENT` | No | Custom user agent string (defaults to `reddit-mcp/1.0.0 by <username>`) |
+| `REDDIT_USER_AGENT` | No | Custom user agent string (defaults to `reddit-post-mcp/1.0.0 by <username>`) |
 
 ## License
 

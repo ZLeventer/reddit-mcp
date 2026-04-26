@@ -1,9 +1,9 @@
 {
-  "name": "reddit-mcp",
+  "name": "reddit-post-mcp",
   "version": "1.0.0",
   "description": "MCP server for Reddit — submit posts, comment, search subreddits, and read posts via the Reddit API",
   "type": "module",
-  "bin": { "reddit-mcp": "dist/index.js" },
+  "bin": { "reddit-post-mcp": "dist/index.js" },
   "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsc",
