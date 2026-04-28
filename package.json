@@ -3,15 +3,26 @@
   "version": "1.0.0",
   "description": "MCP server for Reddit — submit posts, comment, search subreddits, and read posts via the Reddit API",
   "type": "module",
-  "bin": { "reddit-post-mcp": "dist/index.js" },
-  "files": ["dist", "README.md"],
+  "bin": {
+    "reddit-post-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "tsc --watch",
-    "prepare": "npm run build"
+    "prepare": "husky && npm run build"
   },
-  "keywords": ["mcp", "reddit", "social", "posting", "claude"],
+  "keywords": [
+    "mcp",
+    "reddit",
+    "social",
+    "posting",
+    "claude"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/ZLeventer/reddit-mcp",
   "dependencies": {
@@ -20,7 +31,10 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "husky": "^9.1.7",
     "typescript": "^5.7.2"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }
